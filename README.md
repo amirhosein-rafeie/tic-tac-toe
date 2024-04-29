@@ -4,10 +4,10 @@
 
 ## Development
 
-Run the Vite dev server:
-
-```shellscript
-npm run dev
+```sh
+$ docker-compose up
+$ npx prisma db push
+$ npm run dev
 ```
 
 ## Deployment
